@@ -1,0 +1,467 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black Background */
+    color: #fff; /* White Text */
+    line-height: 1.6;
+}
+
+a {
+    color: #f8f9f9; /* Light Blue Links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fcfdfd;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #3fa0dc;
+    margin-bottom: 30px;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    gap: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #64afed;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.biodata {
+    color: white;
+}
+
+.biodata p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.biodata ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.biodata li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.biodata strong {
+    color: #fcfcfd;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Category Buttons */
+.category-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery Items */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    display: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+    margin-top: 5px;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    margin: 10% auto;
+    display: block;
+    max-width: 80%;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#caption {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style umum untuk bagian skills */
+#skills {
+    padding: 40px;
+    background-color: #050505;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #64afed;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+/* Progress bar style */
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.progress {
+    background-color: #3fa0dc;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sertifikat {
+    text-align: center;
+}
+
+.sertifikat h2 {
+    font-size: 36px;
+    color: #3fa0dc;
+    margin-bottom: 40px;
+}
+
+.sertifikat img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.sertifikat img:hover {
+    transform: scale(1.05);
+}
+
+.sertifikat a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sertifikat img {
+        width: 90%; /* Ukuran gambar lebih kecil untuk HP */
+        height: auto;
+    }
+}
+
+/* Responsive untuk layar yang sangat kecil (ponsel kecil) */
+@media (max-width: 480px) {
+    .sertifikat img {
+        width: 100%; /* Mengisi penuh layar pada perangkat kecil */
+        height: auto;
+    }
+}
+
+/* Item Sertifikat */
+.certificate-item {
+    flex: 1 1 300px; /* Ukuran minimum item, tapi bisa diperluas */
+    max-width: 300px;
+}
+
+.certificate-item img {
+    width: 100%; /* Membuat gambar selalu memenuhi kontainer */
+    height: auto;
+    border-radius: 10px; /* Opsional, membuat sudut gambar melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
+}
+
+@media (max-width: 600px) {
+    .progress-bar {
+        height: 20px;
+    }
+
+    .progress {
+        line-height: 20px;
+    }
+}
+
+/* Responsif untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+    .certificates-container {
+        flex-direction: column; /* Sertifikat ditampilkan bertumpuk di layar kecil */
+    }
+
+    .certificate-item {
+        max-width: 100%; /* Membuat sertifikat memenuhi lebar layar pada ponsel */
+    }
+}
+
+/* Gaya Modal */
+.modal {
+    display: none; /* Modal tersembunyi secara default */
+    position: fixed;
+    z-index: 100; /* Menempatkan modal di atas konten lain */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8); /* Latar belakang gelap */
+}
+
+/* Gaya gambar dalam modal */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+/* Caption untuk gambar */
+#caption {
+    margin: 15px;
+    text-align: center;
+    color: #ccc;
+    font-size: 20px;
+}
+
+/* Tombol close (X) */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.modal-content, .close {
+    animation: zoom 0.6s;
+}
+
+/* Animasi Zoom */
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.projects h2 {
+    font-size: 36px;
+    color: #3fa0dc;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 250px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.project p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #fdfdfd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Responsive design: menyesuaikan lebar kontainer di perangkat kecil */
+@media (max-width: 600px) {
+    .progress-bar {
+        height: 20px;
+    }
+
+    .progress {
+        line-height: 20px;
+    }
+}
